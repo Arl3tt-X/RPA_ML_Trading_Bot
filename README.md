@@ -1,2 +1,6 @@
-# RPA_ML_Trading_Bot
- template project structure for your RPA-based trading strategy using machine learning, deep learning (TensorFlow + Keras), and automation tools.
+## 🧠 AI-Powered RPA Trading Strategy
+
+This repo contains a full-stack trading system using:
+- Supervised (LSTM) and self-supervised (CPC) ML models
+- RPA automation for trading
+- TensorFlow, Keras, and Alpaca API
