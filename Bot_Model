@@ -1,52 +1,38 @@
+```
 rpa-ml-trading-bot/
 ├── data/
-│   ├── raw/                   # Raw market data files
-│   ├── processed/             # Cleaned and feature-engineered datasets
-│   └── fetch_data.py          # Scripts to fetch & clean data
-│
+│   ├── raw/
+│   ├── processed/
+│   └── fetch_data.py
 ├── features/
-│   ├── technical_indicators.py # Add RSI, MACD, Bollinger Bands, etc.
-│   └── feature_engineering.py  # Normalization, lag features, etc.
-│
+│   ├── technical_indicators.py
+│   └── feature_engineering.py
 ├── models/
-│   ├── supervised/
-│   │   └── lstm_model.py       # LSTM model implementation
-│   ├── self_supervised/
-│   │   └── contrastive_model.py # CPC / self-supervised training
-│   └── train_model.py         # Unified training script
-│
+│   ├── supervised/lstm_model.py
+│   ├── self_supervised/contrastive_model.py
+│   └── train_model.py
 ├── strategy/
-│   ├── strategy_logic.py      # Buy/sell/hold decision logic
-│   └── backtesting.py         # Backtest with Backtrader or custom logic
-│
+│   ├── strategy_logic.py
+│   └── backtesting.py
 ├── rpa/
-│   ├── alpaca_bot.py          # Live trading integration with Alpaca API
-│   └── schedule_jobs.py       # Python scheduler to run model & make trades
-│
+│   ├── alpaca_bot.py
+│   └── schedule_jobs.py
 ├── deployment/
-│   ├── model_api.py           # Flask or FastAPI to serve model predictions
-│   └── docker/                # Dockerfile & Docker Compose for deployment
-│
+│   ├── model_api.py
+│   └── docker/
 ├── optimization/
-│   ├── hyperparameter_tuning.py # Optuna or KerasTuner scripts
-│   └── ensemble_models.py       # Stacking, voting, or weighted average
-│
-├── nlp_sentiment/
-│   └── sentiment_analysis.py  # News sentiment using HuggingFace
-│
+│   ├── hyperparameter_tuning.py
+│   └── ensemble_models.py
+├── nlp_sentiment/sentiment_analysis.py
 ├── notebooks/
-│   ├── EDA.ipynb              # Exploratory Data Analysis
-│   └── Model_Training.ipynb   # Interactive model development
-│
-├── config/
-│   └── settings.yaml          # Model configs, broker API keys, etc.
-│
-├── utils/
-│   └── helpers.py             # Logging, metrics, serialization, etc.
-│
-├── tests/
-│   └── test_pipeline.py       # Unit tests for each module
-│
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project overview and instructions
-└── .gitignore                 # Ignore logs, models, envs, etc.
+│   ├── EDA.ipynb
+│   └── Model_Training.ipynb
+├── config/settings.yaml
+├── utils/helpers.py
+├── tests/test_pipeline.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
