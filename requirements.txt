@@ -1,0 +1,20 @@
+## 🔧 requirements.txt
+
+tensorflow
+keras
+numpy
+pandas
+yfinance
+ta
+matplotlib==3.7.1
+scikit-learn
+alpaca-trade-api
+flask
+schedule
+optuna
+transformers
+backtrader
+pyyaml
+joblib
+
+---
